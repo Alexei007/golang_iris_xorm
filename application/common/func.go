@@ -3,7 +3,7 @@ package common
 import (
 	"encoding/binary"
 	"github.com/kataras/iris"
-	"iris/config"
+	"golang_iris_xorm/config"
 	"net"
 	"regexp"
 	"strings"
