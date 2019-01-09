@@ -14,5 +14,8 @@ const Charset string = "UTF-8"
 // http限流 - 每秒最多请求5次
 const Limiter = 5
 
+// cdn url
+const CDN_URL = "YOUR_CDN_URL"
+
 // 中国时区
 var SysTimeLocation, _ = time.LoadLocation("Asia/Shanghai")
